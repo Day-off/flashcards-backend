@@ -9,9 +9,4 @@
 
     <property name="now" value="now()" dbms="postgresql"/>
 
-    <changeSet id="UserTable" author="Kristina">
-        <createTable tableName="user">
-            <column name="firstname" type="text"/>
-        </createTable>
-    </changeSet>
 </databaseChangeLog>
